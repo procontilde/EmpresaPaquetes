@@ -64,7 +64,7 @@ public class MainPaqueteria {
 
                 case 'b':
 
-                    añadirProducto();
+                    anyadirProducto();
                     break;
 
                 case 'c':
