@@ -105,7 +105,7 @@ public class MainPaqueteria {
 
     public static void alta() {
 
-        System.out.println("\nIntroduzca el localizador: ");
+        System.out.println("Introduzca el localizador: ");
         String localizador = miScan.nextLine();
         System.out.println("Introduzca la dirección: ");
         String direccion = miScan.nextLine();
@@ -120,9 +120,9 @@ public class MainPaqueteria {
 
     }
 
-    public static void añadirProducto() {
+    public static void anyadirProducto() {
 
-        System.out.println("\nIntroduzca el localizador del paquete: ");
+        System.out.println("Introduzca el localizador del paquete: ");
         String localizador = miScan.nextLine();
         System.out.println("Introduzca el código del producto: ");
         String codigo = miScan.nextLine();
@@ -154,7 +154,7 @@ public class MainPaqueteria {
 
     public static void eliminarProducto() {
 
-        System.out.println("\nIntroduzca el localizador del paquete: ");
+        System.out.println("Introduzca el localizador del paquete: ");
         String localizador = miScan.nextLine();
         System.out.println("Introduzca el código del producto: ");
         String codigo = miScan.nextLine();
@@ -178,7 +178,7 @@ public class MainPaqueteria {
 
     public static void buscarProducto() {
 
-        System.out.println("\nIntroduzca el localizador del paquete: ");
+        System.out.println("Introduzca el localizador del paquete: ");
         String localizador = miScan.nextLine();
         System.out.println("Introduzca el código del producto: ");
         String codigo = miScan.nextLine();
@@ -211,7 +211,7 @@ public class MainPaqueteria {
 
     public static void listarPaquetes() {
 
-        System.out.println("\nLista de todos los paquetes:");
+        System.out.println("Lista de todos los paquetes:");
 
         for (Paquete p : misPaquetes) System.out.println(p.toString());
 
@@ -219,7 +219,7 @@ public class MainPaqueteria {
 
     public static void listarProductosDePaquete() {
 
-        System.out.println("\nIntroduzca el localizador del paquete: ");
+        System.out.println("Introduzca el localizador del paquete: ");
         String localizador = miScan.nextLine();
 
         for (Paquete p : misPaquetes) {
